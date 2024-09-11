@@ -25,18 +25,6 @@ function playSound(color){
     var audio = new Audio("sounds/"+color+".mp3");
     audio.play();
 }
-/*
-function isPatternCorrect(arr1, arr2){
-    if(arr1.length !== arr2.length){
-        return false
-    } 
-    for(let i=0; i<level; i++){
-        if(arr1[i] !== arr2[i]){
-            return false
-        }
-    }
-    return true;
-} */
 function checkAnswer(currentLevel) {
 
     if (gamePattern[currentLevel] === userPattern[currentLevel]) {
