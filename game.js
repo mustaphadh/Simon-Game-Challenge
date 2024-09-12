@@ -3,7 +3,8 @@ var userPattern = [];
 var buttonColors = ["red", "green", "yellow", "blue"];
 var level = 0;
 var started = false;
-
+// An alert to explain to the user how to play ?
+alert("Welcome to the Memory Game! Try to remember the sequence of colors. When the colors are shown, repeat the pattern by clicking the buttons in the same order. The game gets harder as you progress. Good luck!");
 $(document).on("keypress", function(){
    if(!started){
       started = true;
